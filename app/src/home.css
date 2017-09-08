@@ -18,8 +18,7 @@ nav {
 .nav-link {
     color: white;
     text-decoration: none;
-    margin: 0 20px;
-    font-size: 22px;
+    margin: 0 1em;
     position: relative;
 }
 

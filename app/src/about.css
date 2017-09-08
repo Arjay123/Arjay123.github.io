@@ -1,0 +1,15 @@
+#about {
+    text-align: center;
+}
+
+.about-wrap {
+    padding: 10% 10%;
+}
+
+.about-wrap > p {
+    max-width: 55ch;
+    margin: auto;
+    overflow: hidden;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}

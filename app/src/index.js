@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import Home from './home';
+import About from './about';
 import registerServiceWorker from './registerServiceWorker';
 
 class Page extends React.Component {
@@ -10,7 +10,7 @@ class Page extends React.Component {
         return(
             <div id="app">
                 <Home />
-                <App />
+                <About />
             </div>
         );
     }

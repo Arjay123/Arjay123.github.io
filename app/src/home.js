@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './home.css';
 
 class Home extends React.Component {
@@ -15,7 +14,7 @@ class Home extends React.Component {
                 </nav>
                 <header>
                     <h1 className="hdr-text">Arjay Nguyen</h1>
-                    <h2 className="hdr-text">This text goes underneath</h2>
+                    <h5 className="hdr-text">Descriptive Text</h5>
                 </header>
             </div>
         );
