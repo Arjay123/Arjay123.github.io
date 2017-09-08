@@ -7,7 +7,7 @@ class Home extends React.Component {
         return(
             <div id="home">
                 <nav>
-                    <a className="nav-link" href="#">Link</a>
+                    <a className="nav-link nav-link--current" href="#">Link</a>
                     <a className="nav-link" href="#">Link</a>
                     <a className="nav-link" href="#">Link</a>
                     <a className="nav-link" href="#">Link</a>

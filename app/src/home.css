@@ -11,6 +11,8 @@ nav {
     text-align: center;
     margin-top: 40px;
     position: absolute;
+
+    /* used position fixed to make nav sticky */
 }
 
 .nav-link {
@@ -18,6 +20,31 @@ nav {
     text-decoration: none;
     margin: 0 20px;
     font-size: 22px;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.nav-link:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.nav-link:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
 }
 
 #home {
@@ -29,7 +56,6 @@ nav {
           rgba(0, 0, 0, 0.45)
         ),
         url("http://www.yosemitehikes.com/images/wallpaper/yosemitehikes.com-swinging-bridge-1920x1200.jpg");
-    /*background-image: ;*/
     top: 0;
     left: 0;
 }
