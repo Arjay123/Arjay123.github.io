@@ -1,9 +1,7 @@
 #about {
     text-align: center;
-}
-
-.about-wrap {
-    padding: 10% 10%;
+    /*box-shadow: 0 8px 6px -3px gray;
+    position: relative;*/
 }
 
 .about-para {

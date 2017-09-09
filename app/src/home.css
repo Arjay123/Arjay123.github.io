@@ -54,7 +54,7 @@ nav {
           rgba(0, 0, 0, 0.4),
           rgba(0, 0, 0, 0.4)
         ),
-        url("http://www.yosemitehikes.com/images/wallpaper/yosemitehikes.com-swinging-bridge-1920x1200.jpg");
+        url("./bg.jpg");
     top: 0;
     left: 0;
     text-shadow: 2px 4px 3px rgba(0,0,0,.5);

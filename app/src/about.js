@@ -16,7 +16,7 @@ class About extends React.Component {
 
         return(
             <section id="about">
-                <div className="about-wrap">
+                <div className="wrap">
                     <header className="about-hdr">
                         <h1>This is an about me section</h1>
                     </header>
