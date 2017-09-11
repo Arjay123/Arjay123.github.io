@@ -2,7 +2,7 @@ nav {
     width: 100%;
     text-align: center;
     margin-top: 40px;
-    position: fixed;
+    position: absolute;
 
     /* used position fixed to make nav sticky */
 }
