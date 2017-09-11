@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './home';
 import About from './about';
-import Projects from './projects'
+import Projects from './projects';
+import Contact from './contact';
 import registerServiceWorker from './registerServiceWorker';
 
 class Page extends React.Component {
@@ -13,6 +14,7 @@ class Page extends React.Component {
                 <Home />
                 <About />
                 <Projects />
+                <Contact />
             </div>
         );
     }
