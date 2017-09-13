@@ -1,7 +1,6 @@
 #about {
     text-align: center;
-    /*box-shadow: 0 8px 6px -3px gray;
-    position: relative;*/
+    background-color: #fffbfc;
 }
 
 .about-para {
@@ -10,7 +9,7 @@
     margin-right: auto;
     overflow: hidden;
     line-height: 1.5em;
-    color: gray;
+    color: #7C7C7C;
 }
 
 .about-hdr {

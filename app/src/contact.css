@@ -1,10 +1,13 @@
 #contact {
     text-align: center;
+    background-color: #CF5C36;
+    color: #FFFBFC;
 }
 
 .contact-icons {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
