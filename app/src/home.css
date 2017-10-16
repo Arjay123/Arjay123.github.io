@@ -1,8 +1,9 @@
-nav {
+#nav {
     width: 100%;
     text-align: center;
-    margin-top: 40px;
-    position: absolute;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: fixed;
 
     /* used position fixed to make nav sticky */
 }
@@ -15,11 +16,23 @@ nav {
     text-align: center;
 }
 
+#nav-back {
+    height: 67px;
+    background-color: #246EB9;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
 .nav-link {
     color: #fffbfc;
     text-decoration: none;
     margin: 0 1em;
     position: relative;
+}
+
+.hidden {
+    display: none;
 }
 
 .nav-link:hover {
@@ -58,6 +71,9 @@ nav {
         url("./bg.jpg");
     top: 0;
     left: 0;
+}
+
+.home-hdr {
     text-shadow: 2px 4px 3px rgba(0,0,0,.5);
 }
 
