@@ -9,28 +9,47 @@ class Contact extends React.Component {
                 <div className="wrap">
                     <h1>Contact Me!</h1>
                     <div className="contact-icons">
-                        <div className="contact-link-wrap github">
-                            <a className="contact-link" href="#">
-                                <i className="fa fa-github" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                        <div className="contact-link-wrap linkedin">
-                            <a className="contact-link" href="#">
-                                <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                        <div className="contact-link-wrap facebook">
-                            <a className="contact-link" href="#">
-                                <i className="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
-                        </div>
-                        <div className="contact-link-wrap gmail">
-                            <a className="contact-link" href="mailto:arjay.nguyen@gmail.com">
-                                arjay.nguyen@gmail.com
-                            </a>
-                        </div>
+                        <ContactIcon site='github' url='#'/>
+                        <ContactIcon site='linkedin' url='#'/>
+                        <ContactIcon site='facebook' url='#'/>
+                        <ContactIcon site='gmail' url='mailto:arjay.nguyen@gmail.com' text='arjay.nguyen@gmail.com'/>
                     </div>
                 </div>
+            </div>
+        );
+    }
+}
+
+class ContactIcon extends React.Component {
+
+    constructor(props) {
+        super(props);
+
+        this.handleOnClick = this.handleOnClick.bind(this);
+    }
+
+    handleOnClick(){
+        if(!this.props.url)
+            return;
+
+        var win = window.open(this.props.url, '_blank');
+        if (win)
+            win.focus();
+    }
+
+    render(){
+        const linkName = "contact-link-wrap " + this.props.site;
+        const iconName = "fa fa-" + this.props.site;
+        var icon = <i className={iconName} aria-hidden="true"></i>;
+
+        if(this.props.text)
+            var icon = this.props.text;
+
+        return(
+            <div onClick={this.handleOnClick} className={linkName}>
+                <a className="contact-link">
+                    {icon}
+                </a>
             </div>
         );
     }
