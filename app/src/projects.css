@@ -8,14 +8,42 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
 .project-img {
     max-width: 100%;
-    /*width: 100%;*/
-    /*height: 600px;*/
-    height: 200px;
+}
+
+.project-img-overlay {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height:100%;
+}
+
+.project-img-overlay-wrap {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.overlay-icon {
+    width: 100%;
+    color: #fffbfc;
+    background-color: #A63D40;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.transparent {
+    opacity: .8;
+    background-color: black;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .project-desc {
@@ -23,7 +51,7 @@
 }
 
 .img-wrap {
-    width: 100%;
+    position: relative;
 }
 
 .project {
