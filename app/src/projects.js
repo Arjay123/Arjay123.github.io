@@ -16,7 +16,7 @@ class Project extends React.Component {
                     </div>
                 </a>
                 <h2>{this.props.title}</h2>
-                <p>{this.props.desc}</p>
+                <p className='project-desc'>{this.props.desc}</p>
                 </div>
             </div>
         );
