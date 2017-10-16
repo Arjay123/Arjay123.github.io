@@ -162,6 +162,7 @@ class Projects extends React.Component {
 
         return(
             <div id='projects'>
+                <a name="projects"></a>
                 <div className='wrap'>
                     <h1>Projects</h1>
                     <div className="projects-wrap">

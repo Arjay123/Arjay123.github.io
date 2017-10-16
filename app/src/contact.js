@@ -5,6 +5,7 @@ class Contact extends React.Component {
     render() {
         return(
             <div id="contact">
+                <a name="contact"></a>
                 <div className="wrap">
                     <h1>Contact Me!</h1>
                     <div className="contact-icons">

@@ -34,12 +34,13 @@ class Home extends React.Component {
     render() {
         return(
             <div id="home">
+                <a name="home"></a>
                 <div id="nav-back" className="hidden"></div>
                 <nav id="nav">
-                    <a className="nav-link" href="#">Home</a>
-                    <a className="nav-link" href="#">About</a>
-                    <a className="nav-link" href="#">Projects</a>
-                    <a className="nav-link" href="#">Contact</a>
+                    <a className="nav-link" href="#home">Home</a>
+                    <a className="nav-link" href="#about">About</a>
+                    <a className="nav-link" href="#projects">Projects</a>
+                    <a className="nav-link" href="#contact">Contact</a>
                 </nav>
                 <header className="home-hdr">
                     <h1 className="hdr-text hdr-hero">Arjay Nguyen</h1>
