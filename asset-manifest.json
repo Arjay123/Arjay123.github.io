@@ -1,11 +1,12 @@
 {
-  "main.css": "static/css/main.abe5d485.css",
-  "main.css.map": "static/css/main.abe5d485.css.map",
-  "main.js": "static/js/main.0ec1c0c6.js",
-  "main.js.map": "static/js/main.0ec1c0c6.js.map",
+  "main.css": "static/css/main.7003bbfa.css",
+  "main.css.map": "static/css/main.7003bbfa.css.map",
+  "main.js": "static/js/main.f0596032.js",
+  "main.js.map": "static/js/main.f0596032.js.map",
   "static/media/bg.jpg": "static/media/bg.6ada46dc.jpg",
-  "static/media/itemcatalog-large.png": "static/media/itemcatalog-large.fd00c9c1.png",
-  "static/media/multiuserblog-large.png": "static/media/multiuserblog-large.a90f912c.png",
-  "static/media/neighborhoodmap-large.png": "static/media/neighborhoodmap-large.2954d8f1.png",
-  "static/media/recipebook-large.png": "static/media/recipebook-large.55b6e0d3.png"
+  "static/media/django-react-large.png": "static/media/django-react-large.a12cdb16.png",
+  "static/media/itemcatalog-large.png": "static/media/itemcatalog-large.019bf9d9.png",
+  "static/media/multiuserblog-large.png": "static/media/multiuserblog-large.7c61a083.png",
+  "static/media/neighborhoodmap-large.png": "static/media/neighborhoodmap-large.628e349f.png",
+  "static/media/recipebook-large.png": "static/media/recipebook-large.2c141e24.png"
 }
