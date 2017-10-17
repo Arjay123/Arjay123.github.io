@@ -9,6 +9,7 @@ class Home extends React.Component {
         super(props);
 
         this.handleScroll = this.handleScroll.bind(this);
+        this.scrollToElement = this.scrollToElement.bind(this);
     }
 
     handleScroll() {
@@ -27,6 +28,17 @@ class Home extends React.Component {
         }
     }
 
+    scrollToElement(e){
+
+        e.preventDefault();
+        var scrollTo = $('#' + e.currentTarget.name);
+
+        $('html, body').animate({
+            scrollTop: scrollTo.offset().top
+        });
+
+    }
+
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
     }
@@ -37,10 +49,10 @@ class Home extends React.Component {
                 <a name="home"></a>
                 <div id="nav-back" className="hidden"></div>
                 <nav id="nav">
-                    <a className="nav-link" href="#home">Home</a>
-                    <a className="nav-link" href="#about">About</a>
-                    <a className="nav-link" href="#projects">Projects</a>
-                    <a className="nav-link" href="#contact">Contact</a>
+                    <a className="nav-link" name="home" href="#home" onClick={this.scrollToElement}>Home</a>
+                    <a className="nav-link" name="about" href="#about" onClick={this.scrollToElement}>About</a>
+                    <a className="nav-link" name="projects" href="#projects" onClick={this.scrollToElement}>Projects</a>
+                    <a className="nav-link" name="contact" href="#contact" onClick={this.scrollToElement}>Contact</a>
                 </nav>
                 <header className="home-hdr">
                     <h1 className="hdr-text hdr-hero">Arjay Nguyen</h1>
