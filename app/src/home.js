@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './home.css';
 import $ from 'jquery';
 
@@ -46,7 +45,6 @@ class Home extends React.Component {
     render() {
         return(
             <div id="home">
-                <a name="home"></a>
                 <div id="nav-back" className="hidden"></div>
                 <nav id="nav">
                     <a className="nav-link" name="home" href="#home" onClick={this.scrollToElement}>Home</a>
@@ -56,7 +54,7 @@ class Home extends React.Component {
                 </nav>
                 <header className="home-hdr">
                     <h1 className="hdr-text hdr-hero">Arjay Nguyen</h1>
-                    <h5 className="hdr-text hdr-support">Descriptive Text</h5>
+                    <h5 className="hdr-text hdr-support">Full Stack Web Developer</h5>
                 </header>
             </div>
         );

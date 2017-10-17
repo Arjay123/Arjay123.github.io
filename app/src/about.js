@@ -2,9 +2,9 @@ import React from 'react';
 import './about.css';
 
 const content = [
-    'Lorem ipsum dolor sit amet, eu saperet commune voluptua quo, atomorum gubergren reformidans no pri. Et qui error ocurreret liberavisse. Alii delenit sit ne, ex vis congue causae tacimates. Tibique accusata per eu. Eu quo mucius fabellas inimicus, appellantur complectitur an duo, vix cu utinam partem.',
-    'Eos at minim honestatis. Postea intellegebat an duo. Mutat minimum vix eu, id pri nostro conclusionemque, per vide quando alterum eu. Lobortis volutpat sea te, eu mel reque dictas. Ex discere referrentur sit, ceteros voluptaria et duo.',
-    'No atqui dicunt deterruisset eam, usu in fuisset probatus. Quando aeterno ne nec, ei inani copiosae salutandi mel, dolore qualisque vim ad. Omnium oporteat senserit has ex. Nam in tation fuisset inciderint, numquam phaedrum concludaturque eum ea. Utamur accumsan iudicabit at pri. Cu nam animal placerat, ad vel wisi vivendo pertinacia. Duo utinam evertitur id, eam ex elitr virtute.'
+    "I'm a Full Stack Engineer with a passion for learning and problem solving.",
+    "During my studies, both personal and through Udacity's Full Stack Web Developer Nanodegree, I gained experience in building web applications both on the front and back end using technologies such as Flask, Knockout.js, SQLAlchemy, React.js, and many more.",
+    "Having recently completed Udacity's Full Stack Web Developer Nanodegree, I am actively looking for a full-time opportunity. Feel free to look through my Github profile linked in my Contact section. If you are interested in contacting me I can be reached through any of the methods listed in the Contact section at the bottom."
 ];
 
 class About extends React.Component {
@@ -16,7 +16,6 @@ class About extends React.Component {
 
         return(
             <section id="about">
-                <a name="about"></a>
                 <div className="wrap">
                     <header className="about-hdr">
                         <h1>This is an about me section</h1>

@@ -1,11 +1,9 @@
 import React from 'react';
 import './projects.css';
-import recipebook from './recipebook-large.png';
 import neighborhoodmap from './neighborhoodmap-large.png';
 import itemcatalog from './itemcatalog-large.png';
 import djangoreact from './django-react-large.png';
 import multiuserblog from './multiuserblog-large.png';
-import $ from 'jquery';
 
 class Project extends React.Component {
 
@@ -32,20 +30,13 @@ class Project extends React.Component {
         });
     }
 
-    componentDidMount() {
-        console.log("project-img: " + $('.project-img').width());
-        console.log("project-img-overlay: " + $('.project-img-overlay').width());
-    }
-
     render() {
 
         var overlayClass = 'project-img-overlay';
 
         var overlayIcons = this.props.links.map((link) =>
-            <OverlayIcon icon={link.name} text={link.text} link={link.url} />
+            <OverlayIcon key={link.name + link.url} icon={link.name} text={link.text} link={link.url} />
         );
-
-        console.log(overlayIcons);
 
 
         if(this.state.hiddenOverlay) {
@@ -61,7 +52,7 @@ class Project extends React.Component {
                                 {overlayIcons}
                             </div>
                         </div>
-                        <img className='project-img' src={this.props.img} />
+                        <img className='project-img' alt={this.props.title} src={this.props.img} />
                     </div>
                     <h2>{this.props.title}</h2>
                     <p className='project-desc'>{this.props.desc}</p>
@@ -161,7 +152,6 @@ class Projects extends React.Component {
 
         return(
             <div id='projects'>
-                <a name="projects"></a>
                 <div className='wrap'>
                     <h1>Projects</h1>
                     <div className="projects-wrap">
