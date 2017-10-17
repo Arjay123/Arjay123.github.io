@@ -3,6 +3,7 @@ import './projects.css';
 import recipebook from './recipebook-large.png';
 import neighborhoodmap from './neighborhoodmap-large.png';
 import itemcatalog from './itemcatalog-large.png';
+import djangoreact from './django-react-large.png';
 import multiuserblog from './multiuserblog-large.png';
 import $ from 'jquery';
 
@@ -117,39 +118,37 @@ class OverlayIcon extends React.Component {
 
 const projects = [
     {
-        'title': 'Recipe Book',
-        'img': recipebook,
-        'desc': 'Lorem ipsum dolor sit amet, eu saperet commune voluptua quo, atomorum gubergren reformidans no pri. Et qui error ocurreret liberavisse. Alii delenit sit ne, ex vis congue causae tacimates. Tibique accusata per eu. Eu quo mucius fabellas inimicus, appellantur complectitur an duo, vix cu utinam partem.',
-        'links': [
-            { name: 'github', url: '#', text: 'View Source Code'},
-            { name: 'file-text', url: '#', text: 'Visit Page'}
-        ]
-    },
-    {
-        'title': 'Neighborhood Map',
-        'img': neighborhoodmap,
-        'desc': 'Lorem ipsum dolor sit amet, eu saperet commune voluptua quo, atomorum gubergren reformidans no pri. Et qui error ocurreret liberavisse. Alii delenit sit ne, ex vis congue causae tacimates. Tibique accusata per eu. Eu quo mucius fabellas inimicus, appellantur complectitur an duo, vix cu utinam partem.',
-        'links': [
-            { name: 'github', url: '#', text: 'View Source Code'},
-            { name: 'file-text', url: '#', text: 'Visit Page'}
-        ]
-    },
-    {
         'title': 'Item Catalog',
         'img': itemcatalog,
-        'desc': 'Lorem ipsum dolor sit amet, eu saperet commune voluptua quo, atomorum gubergren reformidans no pri. Et qui error ocurreret liberavisse. Alii delenit sit ne, ex vis congue causae tacimates. Tibique accusata per eu. Eu quo mucius fabellas inimicus, appellantur complectitur an duo, vix cu utinam partem.',
+        'desc': 'A website that allows users to perform CRUD operations on a SQLite or PostgreSQL database using Python with Flask and SQLAlchemy.',
         'links': [
-            { name: 'github', url: '#', text: 'View Source Code'},
-            { name: 'file-text', url: '#', text: 'Visit Page'}
+            { name: 'github', url: 'https://github.com/Arjay123/fullstack-nanodegree-vm', text: 'View Source Code'},
+            { name: 'file-text', url: 'http://ec2-34-214-126-81.us-west-2.compute.amazonaws.com/', text: 'Visit Page'}
         ]
     },
     {
         'title': 'Multi User Blog',
         'img': multiuserblog,
-        'desc': 'Lorem ipsum dolor sit amet, eu saperet commune voluptua quo, atomorum gubergren reformidans no pri. Et qui error ocurreret liberavisse. Alii delenit sit ne, ex vis congue causae tacimates. Tibique accusata per eu. Eu quo mucius fabellas inimicus, appellantur complectitur an duo, vix cu utinam partem.',
+        'desc': 'A blog website built in Python and Google App Engine that allows multiple users to create their own posts to share with other bloggers. They are also able to edit and delete their own posts as they see fit.',
         'links': [
-            { name: 'github', url: '#', text: 'View Source Code'},
-            { name: 'file-text', url: '#', text: 'Visit Page'}
+            { name: 'github', url: 'https://github.com/Arjay123/multi-user-blog', text: 'View Source Code'},
+            { name: 'file-text', url: 'https://an-udacity-mu-blog.appspot.com/', text: 'Visit Page'}
+        ]
+    },
+    {
+        'title': 'Django React Template',
+        'img': djangoreact,
+        'desc': 'The purpose of this project is to document my progress as I learn what Babel and Webpack are, how to configure them, and how to hook up React.js with Django. The end result is a small web app built with Django, Django Rest Framework, and React.js that can be used as a reference point when creating apps with a similar stack.',
+        'links': [
+            { name: 'github', url: 'https://github.com/Arjay123/django-react-template', text: 'View Source Code'}
+        ]
+    },
+    {
+        'title': 'Neighborhood Map',
+        'img': neighborhoodmap,
+        'desc': 'A website that allows users to browse through all restaurants for a certain city, using Yelp and Google Maps API.',
+        'links': [
+            { name: 'github', url: 'https://github.com/Arjay123/neighborhood-map', text: 'View Source Code'}
         ]
     }
 ];
