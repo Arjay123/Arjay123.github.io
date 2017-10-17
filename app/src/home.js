@@ -11,6 +11,8 @@ class Home extends React.Component {
         this.scrollToElement = this.scrollToElement.bind(this);
     }
 
+    // Detects when user has scrolled past home page, shows background for
+    // navbar readability
     handleScroll() {
 
         const nav = $('#nav');
@@ -27,6 +29,7 @@ class Home extends React.Component {
         }
     }
 
+    // animates scrolling to page section
     scrollToElement(e){
 
         e.preventDefault();

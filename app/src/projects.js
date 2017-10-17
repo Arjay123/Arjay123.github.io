@@ -18,12 +18,14 @@ class Project extends React.Component {
         }
     }
 
+    // show links when mouse enters image window
     handleImgMouseEnter(e){
         this.setState({
             hiddenOverlay: false
         });
     }
 
+    // hide links after mouse leaves window
     handleImgMouseLeave(e){
         this.setState({
             hiddenOverlay: true
@@ -75,18 +77,21 @@ class OverlayIcon extends React.Component {
         }
     }
 
+    // highlight currently moused over link
     handleMouseEnter(){
         this.setState({
             transparent: false
         });
     }
 
+    // revert to default state
     handleMouseLeave(){
         this.setState({
             transparent: true
         });
     }
 
+    //open link in new tab
     handleOnClick(){
         var win = window.open(this.props.link, '_blank');
         if (win)

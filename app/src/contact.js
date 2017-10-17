@@ -30,6 +30,7 @@ class ContactIcon extends React.Component {
         this.handleOnClick = this.handleOnClick.bind(this);
     }
 
+    // Replicate link click behavior for a div, opens link in new tab
     handleOnClick(){
         if(!this.props.url)
             return;
