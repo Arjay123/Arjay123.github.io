@@ -3,7 +3,7 @@ import './projects.css';
 import neighborhoodmap from './neighborhoodmap-large.png';
 import itemcatalog from './itemcatalog-large.png';
 import djangoreact from './django-react-large.png';
-import multiuserblog from './multiuserblog-large.png';
+import gamenews from './gamenews-fix.png';
 
 class Project extends React.Component {
 
@@ -123,12 +123,11 @@ const projects = [
         ]
     },
     {
-        'title': 'Multi User Blog',
-        'img': multiuserblog,
-        'desc': 'A blog website built in Python and Google App Engine that allows multiple users to create their own posts to share with other bloggers. They are also able to edit and delete their own posts as they see fit.',
+        'title': 'GameNews',
+        'img': gamenews,
+        'desc': 'A website built in Django and React that compiles RSS feeds of game news websites into a single page application.',
         'links': [
-            { name: 'github', url: 'https://github.com/Arjay123/multi-user-blog', text: 'View Source Code'},
-            { name: 'file-text', url: 'https://an-udacity-mu-blog.appspot.com/', text: 'Visit Page'}
+            { name: 'file-text', url: 'http://54.186.199.235/', text: 'Visit Page'}
         ]
     },
     {
