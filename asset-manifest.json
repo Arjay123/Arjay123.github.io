@@ -1,11 +1,11 @@
 {
   "main.css": "static/css/main.7003bbfa.css",
   "main.css.map": "static/css/main.7003bbfa.css.map",
-  "main.js": "static/js/main.e4e0d7d1.js",
-  "main.js.map": "static/js/main.e4e0d7d1.js.map",
+  "main.js": "static/js/main.dd36a4af.js",
+  "main.js.map": "static/js/main.dd36a4af.js.map",
   "static/media/bg.jpg": "static/media/bg.6ada46dc.jpg",
   "static/media/django-react-large.png": "static/media/django-react-large.a12cdb16.png",
+  "static/media/gamenews-fix.png": "static/media/gamenews-fix.316e30a0.png",
   "static/media/itemcatalog-large.png": "static/media/itemcatalog-large.019bf9d9.png",
-  "static/media/multiuserblog-large.png": "static/media/multiuserblog-large.7c61a083.png",
   "static/media/neighborhoodmap-large.png": "static/media/neighborhoodmap-large.628e349f.png"
 }
