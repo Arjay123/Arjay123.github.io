@@ -127,7 +127,7 @@ const projects = [
         'img': gamenews,
         'desc': 'A website built in Django and React that compiles RSS feeds of game news websites into a single page application.',
         'links': [
-            { name: 'file-text', url: 'http://54.186.199.235/', text: 'Visit Page'}
+            { name: 'file-text', url: 'http://www.gamenews.zone/', text: 'Visit Page'}
         ]
     },
     {
