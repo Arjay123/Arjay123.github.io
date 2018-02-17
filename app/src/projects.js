@@ -1,9 +1,9 @@
 import React from 'react';
 import './projects.css';
 import neighborhoodmap from './neighborhoodmap-large.png';
-import itemcatalog from './itemcatalog-large.png';
+import designpractice from './designpractice-large.png';
 import djangoreact from './django-react-large.png';
-import gamenews from './gamenews-fix.png';
+import gamenews from './gamenews-large.png';
 
 class Project extends React.Component {
 
@@ -114,12 +114,12 @@ class OverlayIcon extends React.Component {
 
 const projects = [
     {
-        'title': 'Item Catalog',
-        'img': itemcatalog,
-        'desc': 'A website that allows users to perform CRUD operations on a SQLite or PostgreSQL database using Python with Flask and SQLAlchemy.',
+        'title': 'Design Practice',
+        'img': designpractice,
+        'desc': 'A static showcase website that highlights my UI Designs for DailyUI\'s 100-day challenge. Written in pure HTML/CSS and JS/JQuery and hosted on Github Pages.',
         'links': [
-            { name: 'github', url: 'https://github.com/Arjay123/fullstack-nanodegree-vm', text: 'View Source Code'},
-            { name: 'file-text', url: 'http://ec2-34-214-126-81.us-west-2.compute.amazonaws.com/', text: 'Visit Page'}
+            { name: 'github', url: 'https://github.com/Arjay123/design-practice', text: 'View Source Code'},
+            { name: 'file-text', url: 'https://arjay123.github.io/design-practice/', text: 'Visit Page'}
         ]
     },
     {

@@ -21,4 +21,3 @@ class Page extends React.Component {
 }
 
 ReactDOM.render(<Page />, document.getElementById('root'));
-registerServiceWorker();
