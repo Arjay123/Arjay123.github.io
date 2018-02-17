@@ -18,6 +18,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+.text-wrap p:first-child {
+    margin-top: 0;
+}
+
 .about-hdr {
     margin: 1em 0 3em 0;
     font-size: 1.2em;
