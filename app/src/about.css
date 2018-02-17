@@ -1,6 +1,11 @@
 #about {
     text-align: center;
     background-color: #fffbfc;
+    min-height: 100vh;
+}
+
+.wrap {
+    height: 100%;
 }
 
 .about-para {
@@ -15,5 +20,27 @@
 
 .about-hdr {
     margin: 1em 0 3em 0;
-    font-size: 1.5em;
+    font-size: 1.2em;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.headshot-wrap {
+    width: 20%;
+    margin: 0 5%;
+}
+
+.headshot {
+    max-width: 100%;
+    border-radius: 25px;
+}
+
+.text-wrap {
+    width: 70%;
+    text-align: left;
+    font-size: 16px;
 }

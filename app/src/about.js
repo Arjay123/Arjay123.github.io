@@ -20,7 +20,14 @@ class About extends React.Component {
                     <header className="about-hdr">
                         <h1>About Me</h1>
                     </header>
-                    {cont_render}
+                    <div className="about-content">
+                        <div className="headshot-wrap">
+                            <img className="headshot" src="https://avatars3.githubusercontent.com/u/5757903?s=460&v=4"/>
+                        </div>
+                        <div className="text-wrap">
+                            {cont_render}
+                        </div>
+                    </div>
                 </div>
             </section>
         );
